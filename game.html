@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Memory Game</title>
+	<link rel = "icon" href ="brain.png" type = "image/icon"> 
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+		<div class="score">
+			<h3>Score : <span id="result" style="color:orangered;"></span></h3>
+		</div>
+	<div class="container">
+
+		<div id="grid"></div>
+
+			<div class="popup" id="popup-1">
+				<div class="overlay"></div>
+				<div class="content">
+					<div class="close-btn" onclick="popup()">&times;</div>
+						<h1>Congrats! </h1>
+						<img src="1.gif" height="230" width="400" class="gif">
+						<p></p>
+						<button class="btnTryAgain"> <a href="game.html">Try Again</a></button>
+				</div>
+			</div>
+		
+	</div>
+	<script>
+	 	 function popup(){
+        document.getElementById("popup-1").classList.toggle("active");
+      }
+	  </script>
+	  <script src="app.js"></script>
+</body>
+</html>
