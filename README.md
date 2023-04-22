@@ -1,2 +1,2 @@
 # memory-game-js
-simple memory game in JavaScript, have fun playing here: https://zineb06.github.io/memory-game-js
+simple memory game in JavaScript : https://zineb06.github.io/memory-game-js
